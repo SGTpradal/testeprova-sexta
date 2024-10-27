@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="Formulários.html">Formulários</a></li>
+            <li><a href="relatorios.html">relatorios</a></li>
+            <li><a href="navegar.html">navegar</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="admin.html">ADM</a></li>
+        </ul>
+    </nav>
+    <h1>Formulário de Cadastro</h1>
+    <form id="cadastroForm">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="telefone" placeholder="Telefone" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+    <h2>Lista de Cadastros</h2>
+    <ul id="listaCadastros"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

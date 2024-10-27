@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página Administrativa</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="Formulários.html">Formulários</a></li>
+            <li><a href="relatorios.html">relatorios</a></li>
+            <li><a href="navegar.html">navegar</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="admin.html">ADM</a></li>
+        </ul>
+    </nav>
+    <h1>Área Administrativa</h1>
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Usuário" required>
+        <input type="password" id="password" placeholder="Senha" required>
+        <button type="submit">Login</button>
+    </form>
+    <div id="adminContent" style="display:none;">
+        <h2>Bem-vindo à área administrativa!</h2>
+        <p>Aqui você pode gerenciar os conteúdos da sua página.</p>
+        <button onclick="logout()">Sair</button>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
